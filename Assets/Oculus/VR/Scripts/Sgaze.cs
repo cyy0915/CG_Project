@@ -173,6 +173,6 @@ public class helloworld : MonoBehaviour
     void Update()
     {
         predict_gaze_position();
-        Debug.Log("(" + gaze_pos.x + "," + gaze_pos.y + ")");
+        Debug.Log("(" + gaze_pos + ")");
     }
 }
